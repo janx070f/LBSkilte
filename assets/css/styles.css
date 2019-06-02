@@ -1,0 +1,89 @@
+﻿body
+{
+}
+
+/*#region Navigation */
+
+/*Hamburger Button Navigation*/
+.hamburger {
+    display: flex;
+    align-items: center;
+}
+
+.NavButton {
+    width: 3rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+    .NavButton:focus {
+        outline: none;
+    }
+
+
+/*Desktop Navigation*/
+
+
+.desktop_navigation {
+    display: flex;
+    justify-content: center;
+}
+
+    .desktop_navigation a {
+        text-decoration: none;
+        color: #006262;
+    }
+
+    .desktop_navigation div {
+        padding-left: 20px;
+        display: none;
+    }
+
+/*Mobile Navigation*/
+.mobile {
+    position: fixed;
+    top: 0;
+    background: rgba(90, 90, 90, 0.9);
+    width: 80vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateX(-100vw);
+    transition: transform 500ms ease-out;
+}
+
+.mobileNav_items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+    .mobileNav_items li a {
+        text-decoration: none;
+        color: white;
+    }
+
+.open {
+    display: flex;
+    transform: translateX(0);
+}
+/*Hide button*/
+@media (min-width: 650px) {
+
+    .NavButton {
+        display: none;
+    }
+
+    .desktop_navigation div {
+        display: block;
+    }
+}
+
+/*#endregion */
