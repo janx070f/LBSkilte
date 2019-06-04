@@ -1,7 +1,10 @@
 ﻿body
 {
 }
-
+header img {
+    max-height: 100px;
+    width: auto;
+}
 /*#region Navigation */
 
 /*Hamburger Button Navigation*/
