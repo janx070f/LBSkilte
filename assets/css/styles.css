@@ -1,9 +1,40 @@
-﻿body
-{
+﻿* {
+    box-sizing: border-box;
 }
+
+body {
+}
+
 header img {
     max-height: 100px;
     width: auto;
+}
+
+footer {
+    clear: both;
+    line-height: 18px;
+    bottom: 0;
+    position: relative;
+    font-size: 0.8em;
+}
+
+.footer-left, .footer-center, .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-left {width: 35%;}
+.footer-center {width: 40%;}
+.footer-right {width: 20%;}
+
+.foot {
+    clear: both;
+    float: left;
+    text-shadow: none;
+    line-height: 20px;
+    margin: 0 auto !important;
+    color: #626262;
+    font-size: 0.8em;
 }
 /*#region Navigation */
 
