@@ -28,7 +28,7 @@ footer {
     color: #ffffff;
     height: 100px;
     width: 100%;
-    position: absolute;
+    position:static;
     bottom: 0;
 }
 
@@ -45,7 +45,7 @@ footer {
 
 .navi { grid-area: navi; }
 .left { grid-area: left; }
-.right { grid-area: right; }
+.right { grid-area: right;}
 
 @media (min-width: 768px) {
 	.grid-container {
