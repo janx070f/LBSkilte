@@ -38,9 +38,9 @@ footer {
 .footer-center li  {
     list-style: none;
 }
-.footer-right >.footer-icons > a{
+.footer-right  a{
     /*list-style: none;*/
-    text-decoration: none;
+    /*text-decoration: none;*/
     
 }
 .foot {
@@ -106,6 +106,7 @@ footer {
     text-align: center;
     transform: translateX(-100vw);
     transition: transform 500ms ease-out;
+    z-index: 2;
 }
 
 .mobileNav_items {
