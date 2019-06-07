@@ -1,119 +1,126 @@
 ﻿<!DOCTYPE html>
 <html lang="da" dir="ltr">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">
-   <link href="assets/css/grid2.css" rel="stylesheet">
+    <link href="assets/css/grid2.css" rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
     <!--<script src="assets/js/script.js"></script>-->
     <meta description="LB-Skilte - En sublim løsning når det gælder Skilte, Folie, Solfilm, og meget andet. " />
     <title>LB-Skilte - En sublim løsning</title>
-  </head>
-  
+</head>
+
 <body>
 
 
-<header>
-    <img src="assets/images/logo.png" alt="Logo" />
-</header>
-<div class="grid-container">
-    <!-- #region NAVIGATION -->
-    <div class="navi">
-        <nav class="hamburger">
-            <button class="NavButton">
+    <header>
+        <img src="assets/images/logo.png" alt="Logo" />
+    </header>
+    <div class="grid-container">
+        <!-- #region NAVIGATION -->
+        <div class="navi">
+            <nav class="hamburger">
+                <button class="NavButton">
 
-                <span>
-                    <i class="fas fa-bars fa-3x"></i>
-                </span>
-            </button>
+                    <span>
+                        <i class="fas fa-bars fa-3x"></i>
+                    </span>
+                </button>
+            </nav>
+            <nav class="desktop">
+
+                <div class="desktop_navigation">
+                    <div>
+                        <a href="index.html">Forside</a>
+                    </div>
+                    <div>
+                        <a href="prod.html">Produkter</a>
+                    </div>
+                    <div>
+                        <a href="ref.html">Referencer</a>
+                    </div>
+                    <div>
+                        <a href="firma.html">Om LB-Skilte</a>
+                    </div>
+                    <div>
+                        <a href="kontakt.html">Kontakt</a>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+        <nav class="mobile">
+            <ul class="mobileNav_items">
+                <li class="mobileNav_item"><a href="index.html">Forside</a></li>
+                <li class="mobileNav_item"><a href="prod.html">Produkter</a></li>
+                <li class="mobileNav_item"> <a href="ref.html">Referencer</a></li>
+                <li class="mobileNav_item"> <a href="firma.html">Om LB-Skilte</a></li>
+                <li class="mobileNav_item"> <a href="kontakt.html">Kontakt</a></li>
+            </ul>
         </nav>
-        <nav class="desktop">
 
-            <div class="desktop_navigation">
-                <div>
-                    <a href="index.html">Forside</a>
-                </div>
-                <div>
-                    <a href="prod.html">Produkter</a>
-                </div>
-                <div>
-                    <a href="ref.html">Referencer</a>
-                </div>
-                <div>
-                    <a href="firma.html">Om LB-Skilte</a>
-                </div>
-                <div>
-                    <a href="kontakt.html">Kontakt</a>
-                </div>
+
+
+        <div class="left">
+
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2220.481010207471!2d9.96863561579805!3d56.183363880670754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c12e0b50ce667%3A0x93bf09d70fe78aeb!2sGlentev%C3%A6nget+1%2C+8464+Galten!5e0!3m2!1sda!2sdk!4v1559642196156!5m2!1sda!2sdk"
+                width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+            <address>
+
+                <h3>Kontakt </h3>
+                <p>L.B. Skilte</p>
+                <p>Glentevænget 1</p>
+                <p>8464 Galten</p>
+                <p>Tlf. 86 98 79 87/20 87 90 22</p>
+                <a href="mailto:mailto:info@lbskilte.dk">E-mail</a><br>
+
+
+
+            </address>
+
+        </div>
+        <div class="right">
+            <div class="container">
+                <form action="action_page.php">
+
+                    <label for="fname">Fornavn</label>
+                    <input type="text" id="fname" name="fornavn" placeholder="Skriv dit fornavn her..">
+
+                    <label for="lname">Efternavn</label>
+                    <input type="text" id="lname" name="efternavn" placeholder="Skriv dit efternavn her..">
+
+                    <label for="country">E-mail</label>
+                    <input type="text" id="email" name="E-mail" placeholder="Skriv din e-mail her..">
+
+
+                    <label for="subject">Besked</label>
+                    <textarea id="besked" name="besked" placeholder="Skriv en besked her.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Send">
+
+
+
+                </form>
             </div>
-        </nav>
-
+        </div>
     </div>
-    <nav class="mobile">
-        <ul class="mobileNav_items">
-            <li class="mobileNav_item"><a href="index.html">Forside</a></li>
-            <li class="mobileNav_item"><a href="prod.html">Produkter</a></li>
-            <li class="mobileNav_item"> <a href="ref.html">Referencer</a></li>
-            <li class="mobileNav_item"> <a href="firma.html">Om LB-Skilte</a></li>
-            <li class="mobileNav_item"> <a href="kontakt.html">Kontakt</a></li>
-        </ul>
-    </nav>
 
+    <footer>
 
+        <div class="footer-left">
 
-    <main class="main">
-		
+            <h3>LB-Skilte</h3>
 
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2220.481010207471!2d9.96863561579805!3d56.183363880670754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c12e0b50ce667%3A0x93bf09d70fe78aeb!2sGlentev%C3%A6nget+1%2C+8464+Galten!5e0!3m2!1sda!2sdk!4v1559642196156!5m2!1sda!2sdk" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> 
-  
-  <address>
-	 
-	  <h3>Kontakt </h3>
-				<p>L.B. Skilte</p>
-				<p>Glentevænget 1</p>
-				<p>8464 Galten</p>
-				<p>Tlf.  86 98 79 87/20 87 90 22</p>
-				<a href="mailto:mailto:info@lbskilte.dk">E-mail</a><br>
-	  
-	  
-	  
-  </address>
-			
-    </main>
-  <div class="container">
-  <form action="action_page.php">
-
-    <label for="fname">Fornavn</label>
-    <input type="text" id="fname" name="fornavn" placeholder="Skriv dit fornavn her..">
-
-    <label for="lname">Efternavn</label>
-    <input type="text" id="lname" name="efternavn" placeholder="Skriv dit efternavn her..">
-	  
-	<label for="country">E-mail</label>
-        <input type="text" id="email" name="E-mail" placeholder="Skriv din e-mail her..">
-
-
-    <label for="subject">Besked</label>
-    <textarea id="besked" name="besked" placeholder="Skriv en besked her.." style="height:200px"></textarea>
-
-     <input type="submit" value="Send" >
-	 
-	  
-
-  </form>
-</div> 
-</div>
- 
-<footer>
-	
-			<div class="footer-left">
-
-				<h3>LB-Skilte</h3>
-                
-				<p>LB-Skilte | Gruppe 5 MMDA0918 © 2019</p>
-			</div>
+            <p>LB-Skilte | Gruppe 5 MMDA0918 © 2019</p>
+        </div>
 
 			<div class="footer-center">
                 
@@ -125,22 +132,22 @@
                 </ul>
 			</div>
 
-			<div class="footer-right">
+        <div class="footer-right">
 
-			    <p class="footer-company-about">
-			        <span>CVR:</span>1111111112</p>
-				<div class="footer-icons">
-					<a href="https://www.facebook.com/LB-SKILTE-184065338349067/"><i class="fab fa-facebook fa-2x"></i></a> 
-					<!--<a href="#"><i class="fab fa-twitter"></i></a>
+            <p class="footer-company-about">
+                <span>CVR:</span>1111111112</p>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/LB-SKILTE-184065338349067/"><i class="fab fa-facebook fa-2x"></i></a>
+                <!--<a href="#"><i class="fab fa-twitter"></i></a>
 					<a href="#"><i class="fab fa-linkedin"></i></a>
 					<a href="#"><i class="fab fa-github"></i></a>-->
 
-				</div>
+            </div>
 
-			</div>
+        </div>
 
-</footer>
+    </footer>
 </body>
- <script src="assets/js/Script1.js"></script>
+<script src="assets/js/Script1.js"></script>
 
 </html>
