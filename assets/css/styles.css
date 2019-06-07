@@ -38,7 +38,7 @@ footer {
 .footer-center li  {
     list-style: none;
 }
-.footer-right .footer-icons {
+.footer-right >.footer-icons > a{
     list-style: none;
     text-decoration: none;
     
