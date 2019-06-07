@@ -39,7 +39,7 @@ footer {
     list-style: none;
 }
 .footer-right >.footer-icons > a{
-    list-style: none;
+    /*list-style: none;*/
     text-decoration: none;
     
 }
@@ -180,4 +180,35 @@ input[type=submit] {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
+/*#endregion */
+
+/*#region Galleri */
+
+.gallery ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.gallery li {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 20px;
+  font-size: 14px;
+  list-style: none;
+}
+
+.info {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  color: #fff;
+}
+.responsive {
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+  max-height: 200px;
+}
+
 /*#endregion */
