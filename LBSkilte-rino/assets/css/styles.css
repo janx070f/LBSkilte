@@ -1,0 +1,298 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+}
+
+header img {
+    max-height: 100px;
+    width: auto;
+}
+
+footer {
+    clear: both;
+    line-height: 18px;
+    bottom: 0;
+    position: relative;
+    font-size: 0.8em;
+}
+
+.footer-left, .footer-center, .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-left {
+    width: 35%;
+}
+
+.footer-center {
+    width: 40%;
+}
+
+.footer-right {
+    width: 20%;
+}
+
+.footer-center li  {
+    list-style: none;
+}
+.footer-right  a{
+    /*list-style: none;*/
+    /*text-decoration: none;*/
+    
+}
+.foot {
+    clear: both;
+    float: left;
+    text-shadow: none;
+    line-height: 20px;
+    margin: 0 auto !important;
+    color: #626262;
+    font-size: 0.8em;
+}
+/*#region Navigation */
+
+/*Hamburger Button Navigation*/
+.hamburger {
+    display: flex;
+    align-items: center;
+	float: right;
+}
+
+.NavButton {
+    width: 3rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+	
+}
+
+    .NavButton:focus {
+        outline: none;
+    }
+
+
+/*Desktop Navigation*/
+
+
+.desktop_navigation {
+    display: flex;
+    justify-content: center;
+}
+
+    .desktop_navigation a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .desktop_navigation div {
+        padding-left: 20px;
+        display: none;
+    }
+
+a:hover { text-shadow: 0 0 5px white; }
+
+
+/*Mobile Navigation*/
+.mobile {
+    position: fixed;
+    top: 0;
+    background: rgba(90, 90, 90, 0.9);
+    width: 80vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateX(-100vw);
+    transition: transform 500ms ease-out;
+    z-index: 2;
+}
+
+.mobileNav_items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+    .mobileNav_items li a {
+        text-decoration: none;
+        color: white;
+    }
+
+.open {
+    display: flex;
+    transform: translateX(0);
+}
+/*Hide button*/
+@media (min-width: 650px) {
+
+    .NavButton {
+        display: none;
+    }
+
+    .desktop_navigation div {
+        display: block;
+    }
+}
+
+/*#endregion */
+
+/*#region Kontakt */
+
+
+
+/* Style inputs med type="text", vælg element og tekstområder */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rund borders */
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical /* Tillader bruger at vertikal at ændre teksområde (ikke horisonten)the textarea */
+}
+
+/* Style send knappen med en bestemt baggrunds farve ect */
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding:  20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+    /* Når man føre musen over send kanppen, tilføj en mørk grøn farve */
+    input[type=submit]:hover {
+    	color: #fff !important;
+		text-transform: uppercase;
+		background: black;
+		padding: 20px;
+		border-radius: 50px;
+		display: inline-block;
+		border: none;
+		text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+		-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		transition: all 0.4s ease 0s;
+    }
+
+/* Tilføj bagrundsfarve og noget padding omkring formen */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0 auto;
+    width: 500px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+/*#endregion */
+
+/*#region Galleri */
+
+.gallery ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.gallery li {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 20px;
+  font-size: 14px;
+  list-style: none;
+}
+
+.info {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  color: #fff;
+}
+.responsive {
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+  max-height: 200px;
+}
+
+/*#endregion */
+
+/*#region Modal */
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 8888; /* On top */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; /* Enable scroll  */
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10vh auto; /* 15% from the top and center */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%; 
+}
+@media (min-width: 1366px) {
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10vh auto; /* 15% from the top and center*/
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; 
+    }
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button.button {
+  background:none;
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  border-bottom:#C8C4BB 1px solid;
+  padding:0 0 3px 0;
+  font-size:16px;
+}
+
+button.button:hover {
+  border-bottom:#FFFFFF 1px solid;
+  color:#a99567;
+
+	
+}
+
+/*#endregion */
