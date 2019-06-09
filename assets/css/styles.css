@@ -53,6 +53,20 @@ footer {
     color: #626262;
     font-size: 0.8em;
 }
+
+.responsive {
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 200px;
+}
+.responsive2 {
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: 300px;
+}
+
 /*#region Navigation */
 
 /*Hamburger Button Navigation*/
@@ -253,7 +267,7 @@ input[type=submit] {
     margin: 10vh auto; /* 15% from the top and center */
     padding: 20px;
     border: 1px solid #888;
-    width: 90%;
+    width: 50%;
 }
 
 @media (min-width: 1366px) {
@@ -334,7 +348,7 @@ button.button {
     width: 32px;
     height: 32px;
     position: absolute;
-    background-image: url("file:///C:/Mikkel%20git-clones/git-clones/LBSkilte-2/img/playPause.png");
+    background-image: url("playPause.png");
     background-repeat: no-repeat;
     z-index: 5;
     background-size: cover;
