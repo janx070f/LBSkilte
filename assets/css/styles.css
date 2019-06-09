@@ -1,7 +1,7 @@
 ﻿/*#region FONT IMPORT */
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 /*#endregion */
 
@@ -10,6 +10,7 @@
 }
 
 body {
+    /*background-color: #717171;*/
 }
 
 header img {
@@ -45,7 +46,19 @@ footer {
 .footer-center li {
     list-style: none;
 }
+.footer-icons a {
+    color: #2F63DB
+}
 
+footer p {
+    font-size: .9rem;
+    color: #ffffff;
+}
+
+footer a {
+    font-size: .9rem;
+    color: white;
+}
 
 .responsive {
     width: 100%;
@@ -93,7 +106,7 @@ footer {
 
     .desktop_navigation a {
         text-decoration: none;
-        color: #006262;
+        /*color: #006262;*/
     }
 
     .desktop_navigation div {
@@ -211,6 +224,7 @@ input[type=submit] {
 .gallery h2 {
     margin-left: 2vw;
 }
+
 .gallery ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -529,7 +543,9 @@ button.button {
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
-
+.captionTextHolder p {
+    color: #ffffff;
+}
 @keyframes moveRightCurrent {
     from {
         margin-left: 0;
@@ -554,11 +570,11 @@ button.button {
     }
 }
 
-.slideTextFromBottom {
+/*.slideTextFromBottom {
     animation-name: slideTextFromBottom;
     animation-duration: 0.7s;
     animation-timing-function: ease-out;
-}
+}*/
 
 @keyframes slideTextFromBottom {
     from {
@@ -605,8 +621,17 @@ h1, h2, h3, h4 {
     font-family: 'Merriweather', serif;
     font-size: 1.5rem;
     color: #FF7A05;
-} 
-p{}
-a{}
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #000000;
+}
+
+a {
+    font-size: 1.2rem;
+    color: #000000;
+}
 
 /*#endregion */
