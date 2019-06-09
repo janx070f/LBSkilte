@@ -43,6 +43,7 @@ footer {
 .main { grid-area: main; }
 
 
+
 @media (min-width: 768px) {
 	.grid-container {
 	    grid-template-areas:
