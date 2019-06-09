@@ -93,6 +93,9 @@ footer {
         display: none;
     }
 
+a:hover { text-shadow: 0 0 5px white; }
+
+
 /*Mobile Navigation*/
 .mobile {
     position: fixed;
@@ -157,17 +160,27 @@ input[type=text], select, textarea {
 
 /* Style send knappen med en bestemt baggrunds farve ect */
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
-    padding: 12px 20px;
+    padding:  20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 50px;
     cursor: pointer;
 }
 
     /* Når man føre musen over send kanppen, tilføj en mørk grøn farve */
     input[type=submit]:hover {
-        background-color: #45a049;
+    	color: #fff !important;
+		text-transform: uppercase;
+		background: black;
+		padding: 20px;
+		border-radius: 50px;
+		display: inline-block;
+		border: none;
+		text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+		-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		transition: all 0.4s ease 0s;
     }
 
 /* Tilføj bagrundsfarve og noget padding omkring formen */
