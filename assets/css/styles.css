@@ -295,6 +295,9 @@ button.button {
     border-bottom-right-radius: 30px;
 }
 /*#endregion */
+
+/*#region Mikkel forside carousel */
+
 /*#Mikkel forside start  */
 
 .galleryContainer{
@@ -303,7 +306,7 @@ button.button {
     max-width: 1000px;
     margin: auto;
     user-select: none;
-    box-shadow: 0px 0px 3px 1px #00000078;
+    box-shadow: 0px 0px 3px 1px #000078;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -344,7 +347,7 @@ button.button {
 
 .galleryContainer .slideShowContainer .leftArrow,.galleryContainer .slideShowContainer .rightArrow{
     width: 50px;
-    background: #00000036;
+    background: #000036;
     position: absolute;
     left: 0;
     z-index: 1;
@@ -364,7 +367,7 @@ button.button {
     border-bottom-left-radius: 10px;
 }
 .galleryContainer .slideShowContainer .leftArrow:hover,.galleryContainer .slideShowContainer .rightArrow:hover{
-    background: #000000a8;
+    background: #0000a8;
     cursor: pointer;
 }
 .galleryContainer .arrow{
@@ -398,7 +401,7 @@ button.button {
     font-size: 20px;
     text-align: center;
     width: 100%;
-    background: #00000047;
+    background: #000047;
     height: 50px;
     line-height: 50px;
     overflow: hidden;
@@ -428,7 +431,7 @@ button.button {
     margin-left: 0;
 }
 .galleryContainer #dotsContainer .dots:hover,.galleryContainer #dotsContainer .dots.active{
-    background-color: #717171;;
+    background-color: #717171;
 }
 
 
@@ -500,3 +503,4 @@ button.button {
 }
 
 /*#mikkel forside slut */
+/*#endregion */
