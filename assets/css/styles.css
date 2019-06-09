@@ -431,14 +431,14 @@ button.button:hover {
 
 .galleryContainer .moveLeftCurrentSlide{
     animation-name: moveLeftCurrent;
-    animation-duration: 1.5s;
+    animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-fill-mode:forwards;
 
 }
 .galleryContainer .moveLeftNextSlide{
     animation-name: moveLeftNext;
-    animation-duration: 1.5s;
+    animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-fill-mode:forwards;
 }
@@ -454,13 +454,13 @@ button.button:hover {
 
 .galleryContainer .moveRightCurrentSlide{
     animation-name: moveRightCurrent;
-    animation-duration: 1.5s;
+    animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-fill-mode:forwards;
 }
 .galleryContainer .moveRightPrevSlide{
     animation-name: moveRightPrev;
-    animation-duration: 1.5s;
+    animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-fill-mode:forwards;
 }
@@ -474,7 +474,7 @@ button.button:hover {
 }
 .slideTextFromBottom {
     animation-name: slideTextFromBottom;
-    animation-duration: 1s;
+    animation-duration: 0.7s;
     animation-timing-function: ease-out;
 }
 @keyframes slideTextFromBottom {
@@ -483,7 +483,7 @@ button.button:hover {
 }
 .slideTextFromTop {
     animation-name: slideTextFromTop;
-    animation-duration: 1.5s;
+    animation-duration: 0.5s;
     animation-timing-function: ease-out;
 }
 @keyframes slideTextFromTop {
