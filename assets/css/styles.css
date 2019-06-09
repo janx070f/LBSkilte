@@ -1,4 +1,11 @@
-﻿* {
+﻿/*#region FONT IMPORT */
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+
+/*#endregion */
+
+* {
     box-sizing: border-box;
 }
 
@@ -39,20 +46,6 @@ footer {
     list-style: none;
 }
 
-.footer-right a {
-    /*list-style: none;*/
-    /*text-decoration: none;*/
-}
-
-.foot {
-    clear: both;
-    float: left;
-    text-shadow: none;
-    line-height: 20px;
-    margin: 0 auto !important;
-    color: #626262;
-    font-size: 0.8em;
-}
 
 .responsive {
     width: 100%;
@@ -215,7 +208,9 @@ input[type=submit] {
 /*#endregion */
 
 /*#region Galleri */
-
+.gallery h2 {
+    margin-left: 2vw;
+}
 .gallery ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -602,4 +597,16 @@ button.button {
 }
 
 /*#mikkel forside slut */
+/*#endregion */
+
+/*#region fonte */
+
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    color: #FF7A05;
+} 
+p{}
+a{}
+
 /*#endregion */
