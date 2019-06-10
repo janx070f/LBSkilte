@@ -214,6 +214,7 @@ input[type=submit] {
     padding: 20px;
     margin: 0 auto;
     width: 500px;
+	
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;

@@ -38,8 +38,8 @@ footer {
 }
 
 .navi { grid-area: navi; }
-.left { grid-area: left; }
-.right { grid-area: right; }
+.left { grid-area: left;}
+.right { grid-area: right;}
 .center { grid-area: center; }
 
 @media (min-width: 768px) {
