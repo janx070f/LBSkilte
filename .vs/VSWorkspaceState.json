@@ -3,10 +3,9 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\assets\\images",
-    "\\assets\\images\\fb",
-    "\\assets\\js"
+    "\\assets\\js",
+    "\\img"
   ],
-  "SelectedNode": "\\assets\\images\\fb\\31946711_1708267119262207_62957511820443648_n.jpg",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": true
 }
