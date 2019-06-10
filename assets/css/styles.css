@@ -52,11 +52,6 @@ footer {
     list-style: none;
 }
 
-.footer-company-about {
-    /*font-size: .9em;*/
-    /*float: right;*/
-}
-
 .footer-icons a {
     font-size: larger;
     color: #2F63DB
@@ -102,6 +97,7 @@ footer a {
     cursor: pointer;
     padding-top: 0;
     padding-bottom: 0;
+     color: #FF7A05;
 }
 
     .NavButton:focus {
@@ -179,6 +175,19 @@ a:hover {
 
 /*#endregion */
 
+/*#region Firma */
+
+.firma-container {
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0 auto;
+}
+.firma-container p {
+     color: #000000;
+}
+/*#endregion */
+
 /*#region Kontakt */
 
 
@@ -223,7 +232,7 @@ input[type=submit] {
     background-color: #f2f2f2;
     padding: 20px;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 490px;
     
     /*border-top-right-radius: 30px;
     border-top-left-radius: 30px;
@@ -291,7 +300,19 @@ input[type=submit] {
     border: 1px solid #888;
     width: 50%;
 }
-
+.modals {
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 10px;
+    width: 75%;
+}
+.modals p {
+    color: #000000;
+}
+.modal-content p {
+    color: #000000;
+}
 @media (min-width: 1366px) {
     .modal-content {
         background-color: #fefefe;
@@ -300,6 +321,10 @@ input[type=submit] {
         border: 1px solid #888;
         width: 30%;
     }
+}
+@media (max-width: 768px) {
+    .modal-content {width: 100%;}
+    .modals {width: 100%;}
 }
 
 /* The Close Button */
@@ -332,13 +357,7 @@ button.button {
         color: #a99567;
     }
 
-.modals {
-    border-radius: 25px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin: 10px;
-    width: 75%;
-}
+
 /*#endregion */
 
 /*#region Mikkel forside carousel */
@@ -351,7 +370,8 @@ button.button {
     max-width: 1000px;
     margin: auto;
     user-select: none;
-    box-shadow: 0px 0px 3px 1px #000078;
+    /*box-shadow: 0px 0px 3px 1px #000078;*/
+       box-shadow: 0px 0px 3px 1px #FF7A05;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -495,7 +515,9 @@ button.button {
             }
 
 
-
+#dotsContainer {
+    background-color: #636363;
+}
 
     .galleryContainer .moveLeftCurrentSlide {
         animation-name: moveLeftCurrent;
@@ -617,8 +639,6 @@ button.button {
 /* -- BOX -- */
 .Boxe{
     clear: both;
-	/*display: inline-block;*/
-	/*width: 100%;*/
 	padding: 1%;
 	margin-bottom: 10px;
 	margin-top: 5px;
@@ -628,93 +648,20 @@ button.button {
     border-radius: 25px;
     max-height: 500px;
     max-width: 360px;
-	/*width: 21%;*/
 	display: inline-block;
 	margin: 1%;
     padding: 1%;
 	background-color: #FFFFFF;
 }
 .Box img {
-    /*display: block;*/
     height: auto;
     width: 320px;
 	margin: 1%;
-	/*transition: all 1.5s ease;*/
 }
 .Box img:hover {
     transform: scale(1.1);
 	transition: all 2s ease;
 }
-/*.Box1{
-	height: 500px;
-	width: 21%;
-	display: inline-block;
-	margin: 1%;
-    padding: 1%;
-	background-color: #F7F7F7;
-}
-.Box1 img{
-	display: block;
-	margin: 35px auto;
-	transition: all 1.5s ease;
-}
-.Box1 img:hover{
-	transform: scale(1.1);
-	transition: all 2s ease;
-	
-}
-
-.Box2{
-	height: 500px;
-	width: 21%;
-	display: inline-block;
-	margin: 1%;
-    padding: 1%;
-	background-color: #F7F7F7;	
-}
-.Box2 img{
-	display: block;
-	margin: 35px auto;
-	transition: all 1.5s ease;
-}
-.Box2 img:hover{
-	transform: scale(1.1);
-	transition: all 2s ease;
-}
-.Box3{
-	height: 500px;
-	width: 21%;
-	display: inline-block;
-	margin: 1%;
-	padding: 1%;
-	background-color: #F7F7F7;
-}
-.Box3 img{
-	display: block;
-	margin: 35px auto;
-	transition: all 1.5s ease;
-}
-.Box3 img:hover{
-	transform: scale(1.1);
-	transition: all 2s ease;
-}
-.Box4{
-	height: 500px;
-	width: 21%;
-	display: inline-block;
-	padding: 1%;
-    margin: 1%;
-	background-color: #F7F7F7;	
-}
-.Box4 img{
-	display: block;
-	margin: 35px auto;
-	transition: all 1.5s ease;
-}
-.Box4 img:hover{
-	transform: scale(1.1);
-	transition: all 2s ease;
-}*/
 
 @media only screen and (max-width:768px) {
   /* For mobile phones: */
@@ -756,7 +703,7 @@ h1, h2, h3, h4 {
 
 p, a {
     font-family: 'Open Sans', sans-serif;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 
