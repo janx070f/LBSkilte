@@ -619,7 +619,117 @@ button.button {
         display: none;
     }
 }
+.Boxe{
+	display: inline-block;
+	width: 100%;
+	padding: 1%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	text-align: center;
+}
 
+.Box1{
+	height: 500px;
+	width: 21%;
+	display: inline-block;
+	margin: 1%;
+    padding: 1%;
+	background-color: #F7F7F7;
+}
+.Box1 img{
+	display: block;
+	margin: 35px auto;
+	transition: all 1.5s ease;
+}
+.Box1 img:hover{
+	transform: scale(1.1);
+	transition: all 2s ease;
+	
+}
+
+.Box2{
+	height: 500px;
+	width: 21%;
+	display: inline-block;
+	margin: 1%;
+    padding: 1%;
+	background-color: #F7F7F7;	
+}
+.Box2 img{
+	display: block;
+	margin: 35px auto;
+	transition: all 1.5s ease;
+}
+.Box2 img:hover{
+	transform: scale(1.1);
+	transition: all 2s ease;
+}
+.Box3{
+	height: 500px;
+	width: 21%;
+	display: inline-block;
+	margin: 1%;
+	padding: 1%;
+	background-color: #F7F7F7;
+}
+.Box3 img{
+	display: block;
+	margin: 35px auto;
+	transition: all 1.5s ease;
+}
+.Box3 img:hover{
+	transform: scale(1.1);
+	transition: all 2s ease;
+}
+.Box4{
+	height: 500px;
+	width: 21%;
+	display: inline-block;
+	padding: 1%;
+    margin: 1%;
+	background-color: #F7F7F7;	
+}
+.Box4 img{
+	display: block;
+	margin: 35px auto;
+	transition: all 1.5s ease;
+}
+.Box4 img:hover{
+	transform: scale(1.1);
+	transition: all 2s ease;
+}
+
+@media only screen and (max-width:768px) {
+  /* For mobile phones: */
+  .Box1, .Box2, .Box3, .Box4 {
+    width:100%;
+  }
+}
+
+
+@media (min-width: 768px){
+		.Hero{display: none;}
+	}
+	
+.Hero {
+	max-width: 758px;
+	height: auto;
+	overflow: hidden;
+	background-color: ##F7F7F7;
+}
+.Hero img{
+	width: 100%;
+}
+	
+.Hero-Text h2 p{
+	width: 100%;
+	position: relative;
+	margin-top: -40%;
+	text-align: center;
+	color: #25FC03;
+	font-size: 10vw;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
 /*#mikkel forside slut */
 /*#endregion */
 
