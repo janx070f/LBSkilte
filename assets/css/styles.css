@@ -80,6 +80,7 @@ footer a {
 .hamburger {
     display: flex;
     align-items: center;
+	float: right;
 }
 
 .NavButton {
