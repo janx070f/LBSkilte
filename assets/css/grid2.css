@@ -2,7 +2,6 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #f00;
     min-height: 100%;
 }
 
@@ -34,7 +33,6 @@ footer {
 		'navi navi'
 		'left left'
         'right right';
-    background-color: #2196F3;
     padding: 10px;
     grid-gap: 10px 15px;
 }

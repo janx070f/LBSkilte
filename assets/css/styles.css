@@ -10,7 +10,7 @@
 }
 
 body {
-    /*background-color: #717171;*/
+    background-color: #1D1D1D;
 }
 
 header img {
@@ -18,10 +18,6 @@ header img {
     width: auto;
 }
 
-.headline {
-    height: 20px;
-    /*line-height: 20;*/
-}
 
 footer {
     clear: both;
@@ -223,16 +219,16 @@ input[type=submit] {
 
 /* Tilføj bagrundsfarve og noget padding omkring formen */
 .container {
-    border-radius: 5px;
+    border-radius: 25px;
     background-color: #f2f2f2;
     padding: 20px;
     margin: 0 auto;
     max-width: 500px;
     
-    border-top-right-radius: 30px;
+    /*border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-bottom-right-radius: 30px;*/
 }
 /*#endregion */
 
@@ -275,7 +271,7 @@ input[type=submit] {
 
 
 .modal {
-    display: none;
+    display: none;  /*Bliver triggerede på display*/   
     position: fixed;
     z-index: 8888; /* On top */
     left: 0;
@@ -337,15 +333,11 @@ button.button {
     }
 
 .modals {
-    border-radius: 5px;
+    border-radius: 25px;
     background-color: #f2f2f2;
     padding: 20px;
     margin: 10px;
     width: 75%;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
 }
 /*#endregion */
 
@@ -586,11 +578,6 @@ button.button {
     }
 }
 
-/*.slideTextFromBottom {
-    animation-name: slideTextFromBottom;
-    animation-duration: 0.7s;
-    animation-timing-function: ease-out;
-}*/
 
 @keyframes slideTextFromBottom {
     from {
@@ -627,16 +614,38 @@ button.button {
         display: none;
     }
 }
+/* -- BOX -- */
 .Boxe{
-	display: inline-block;
-	width: 100%;
+    clear: both;
+	/*display: inline-block;*/
+	/*width: 100%;*/
 	padding: 1%;
 	margin-bottom: 10px;
 	margin-top: 5px;
 	text-align: center;
 }
-
-.Box1{
+.Box{
+    border-radius: 25px;
+    max-height: 500px;
+    max-width: 360px;
+	/*width: 21%;*/
+	display: inline-block;
+	margin: 1%;
+    padding: 1%;
+	background-color: #FFFFFF;
+}
+.Box img {
+    /*display: block;*/
+    height: auto;
+    width: 320px;
+	margin: 1%;
+	/*transition: all 1.5s ease;*/
+}
+.Box img:hover {
+    transform: scale(1.1);
+	transition: all 2s ease;
+}
+/*.Box1{
 	height: 500px;
 	width: 21%;
 	display: inline-block;
@@ -705,13 +714,11 @@ button.button {
 .Box4 img:hover{
 	transform: scale(1.1);
 	transition: all 2s ease;
-}
+}*/
 
 @media only screen and (max-width:768px) {
   /* For mobile phones: */
-  .Box1, .Box2, .Box3, .Box4 {
-    width:100%;
-  }
+  .Box{width:100%;}
 }
 
 

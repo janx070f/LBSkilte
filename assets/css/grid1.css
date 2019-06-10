@@ -2,7 +2,6 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #f00;
     min-height: 100%;
 }
 
@@ -33,7 +32,6 @@ main{ margin-top: 30px;}
 		'main main main main'
         'main main main main'
         'main main main main';
-    background-color: #2196F3;
     padding: 10px;
     grid-gap: 10px 15px;
 }
