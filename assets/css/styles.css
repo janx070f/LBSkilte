@@ -18,9 +18,14 @@ header img {
     width: auto;
 }
 
+.headline {
+    height: 20px;
+    /*line-height: 20;*/
+}
+
 footer {
     clear: both;
-    /*line-height: 18px;*//*line-height: 18px;*/
+    /*line-height: 18px;*/ /*line-height: 18px;*/
     bottom: 0;
     position: relative;
     font-size: 0.8em;
@@ -43,16 +48,20 @@ footer {
     width: 20%;
     margin-left: 1%;
 }
+
 .footer-center ul {
     padding-left: 20px;
 }
+
 .footer-center li {
     list-style: none;
 }
+
 .footer-company-about {
     /*font-size: .9em;*/
     /*float: right;*/
 }
+
 .footer-icons a {
     font-size: larger;
     color: #2F63DB
@@ -88,7 +97,7 @@ footer a {
 .hamburger {
     display: flex;
     align-items: center;
-	float: right;
+    float: right;
 }
 
 .NavButton {
@@ -220,7 +229,6 @@ input[type=submit] {
     padding: 20px;
     margin: 0 auto;
     width: 500px;
-	
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -551,9 +559,11 @@ button.button {
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
+
 .captionTextHolder p {
     color: #ffffff;
 }
+
 @keyframes moveRightCurrent {
     from {
         margin-left: 0;
